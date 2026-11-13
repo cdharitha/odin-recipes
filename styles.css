@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(220, 223, 241);
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+p, ol, ul{
+    width:600px;   
+}
+a{
+    text-decoration: none;
+}
+h1, h2, .section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    font-size: 20px;
+    width: 120px;
+    height:30px;
+    display:block;
+    text-decoration: none;
+    color: black;
+    background-color: greenyellow;
+    border: black 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 6px;
+}
